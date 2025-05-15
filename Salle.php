@@ -6,7 +6,7 @@ class Salle {
     private $capacite;
     private $disponible;
 
-    public function __construct($id, $nom, $capacite, $disponible) {
+    public function __construct($id, $nom, $capacite, $disponible = true) {
         $this->id = $id;
         $this->nom = $nom;
         $this->capacite = $capacite;
